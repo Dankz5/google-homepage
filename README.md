@@ -1,0 +1,1 @@
+So far I'm learning the basics of git, github, html, css and starting to get a handle on all of the information contained within the course.  This mini-project will teach me how to rebuild a webpage from the inspector tool within the browser to further cement the knowledge gained.
