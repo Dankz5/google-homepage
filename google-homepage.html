@@ -1,20 +1,55 @@
 <!DOCTYPE html>
-<title>Google</title>
-<head>Google</head>
+    <head>
+        <title>Google
+        </title>
+        <style>
+            .nav_bar_l {
+                font-family: arial, sans-serif;
+                float: left;
+                top: 10px;
+                left: 10px;
+                
+                display: flex;
+
+            }
+            .nav_bar_r {
+                font-family: arial, sans-serif;
+                float: right;
+                display: flex;
+                
+            }
+            .google_img {
+                position: absolute;
+                top: 200px;
+                left: 850px;
+                display: flex;
+            }
+            .search_bar {
+                position: fixed;
+                top: 300px;
+                left: 850px;
+                width: 100px;
+                border: 1px;
+                border-radius: 75%;
+            }
+        </style>
+    </head>
     <body>
-        <div>
-            About    
+        <div class="nav_bar_l">
+            <a href="#">About</a><a href= "#" style="margin-left: 10px;">Store</a>
         </div>
-        <div>
-            Store
+        <div class="nav_bar_r">
+            <a href="#" style="margin-right: 10px;">Gmail</a>
+            <a href="#" style="margin-right: 10px;">Images</a>
         </div>
-        <div>
-            Gmail
-        </div>
-        <div>
-            Images
-        </div>
-        <div>
-            <a href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-        </div>
-</body>
+        <div class="google_img">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" ></a>
+         </div>
+         <div class="search_bar">
+             <form>
+                 <input>
+
+             </form>
+             
+         </div>
+    </body>
